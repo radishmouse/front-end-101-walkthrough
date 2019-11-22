@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: orange;
+}
+
+
+/* CSS Ruleset */
+h1 {
+    color: red;
+    color: blue;
+    color: green;
+    /* 
+    color = 'red'
+    color = 'blue'
+    color = 'green'
+    print(color)
+    */
+    background-color: black;
+}
+
+/* 
+PYTHON ANALOGY
+h1 = {
+    'color': 'green',
+    'background-color': 'black'
+}
+*/
+
+/* An id selector is written with a # as the prefix */
+#item-price {
+    color: green;
+    font-size: 25px;
+}
+
+
+h1 {
+    /* 
+        !important forces the browser
+        to use that style, ignoring
+        order and specificity.
+     */
+    /* color: cornflowerblue !important; */
+    /* color: cornflowerblue !important; */
+    color: cornflowerblue;
+    color: deeppink;
+}
+
+/* 
+PYTHON ANALOGY
+h1['color'] = 'cornflowerblue';
+*/
+
+.item-title {
+    font-size: 15px;
+    color: orange;
+}
+
+.photo-frame {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    outline: 1px solid red;
+}
+
+/* 
+Any img element anywhere inside an element
+with class "photo-frame"
+ */
+.photo-frame img {
+
+/* 
+Any img element that is directly
+inside an element with class photo-frame
+.photo-frame > img {    
+*/
+
+    height: 100%;
+    /* set the height *or* the width, not both */
+}
+
+.photo-border {
+    height: 500px;
+    width: 500px;
+}
